@@ -13,5 +13,8 @@ export const mutations = {
       done: false
     })
     console.log(state)
+  },
+  toggle (state, todo) {
+    todo.done = !todo.done
   }
 }
