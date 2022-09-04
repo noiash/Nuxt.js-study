@@ -1,6 +1,6 @@
 <template>
   <div style="margin: 20px">
-    <input placeholder="タスクを追加" @keyup.enter="addTodo">
+    <input placeholder="タスクを追加！" @keyup.enter="addTodo">
   </div>
 </template>
 
